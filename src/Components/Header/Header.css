@@ -1,0 +1,19 @@
+.header {
+    background-color: orange;
+    padding: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    background-color: salmon;
+    padding: 20px 50px;
+    color: white;
+    font-size: 18px;
+    border: 4px solid sandybrown;
+    border-radius: 10px;
+}
+
+.header a:hover {
+    padding: 25px 40px;
+    background-color: orange;
+}
