@@ -12,6 +12,7 @@ const Home = () => {
             <div className='home-img'>
                 <img src='https://storage.googleapis.com/circlesoft/tiny_mce/0004/6085/original_favesnraves_2021_web_crop.jpg?8' alt=''></img>
             </div>
+            <hr></hr>
         </div>
     );
 };
