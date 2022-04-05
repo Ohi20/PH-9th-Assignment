@@ -1,8 +1,5 @@
-
-
-// import reviewHook from '../Hooks/ReviewHook';
-
 import useReview from "../hook/customhook";
+import ReviewCart from "../ReviewCart/ReviewCart";
 
 const Review = () => {
      const [reviews, setReviews] = useReview();
@@ -10,13 +7,13 @@ const Review = () => {
     
     return (
         <div>
-            <h2>Review: {reviews.length}</h2>
+            <h2>Reviews: {reviews.length}</h2>
             <div>
                 <div>
                     {
-                        // reviews.map(review=> <ReviewHome
-                        // key={reviews.id}
-                        // review={review}></ReviewHome>)
+                        reviews.map(review=> <ReviewCart
+                        key={review.id}
+                        review={review}></ReviewCart>)
                     }
                 </div>
                 <div>
