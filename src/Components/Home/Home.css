@@ -5,27 +5,43 @@
 
 .header-text {
     color: salmon;
-    padding: 150px 70px;
+    margin-left: 15px;
+
 
 }
 
 .welcome-text {
     font-size: 50px;
+    padding-bottom: 50px;
 }
 
 .paragraph-text {
     font-size: 30px;
     color: black;
-    padding: 0 120px;
+
+    text-align: left;
+
 }
 
 .home-img {
 
     padding-top: 70px;
+    padding-left: 20px;
 
 }
 
 .home-img img {
-    width: 900px;
+    width: 800px;
     height: 650px;
+}
+
+.home-btn {
+    background-color: salmon;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
 }
