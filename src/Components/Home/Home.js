@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useReview from '../hook/customhook';
 import ReviewHome from '../ReviewHome/ReviewHome';
 
@@ -6,6 +7,12 @@ import "./Home.css";
 
 const Home = () => {
     const [reviews, setReviews] = useReview();
+
+    let navigate = useNavigate();
+    const handleReview = () => {
+        let path = `/review`;
+        navigate(path);
+    }
     return (
         <div >
 
@@ -28,7 +35,10 @@ const Home = () => {
                         review={review}></ReviewHome>
                     )
                 }
-                <button className='review-btn'>See all reviews</button>
+                <div>
+                    <button className='review-btn' onClick={handleReview} >See all review</button>
+                </div>
+
             </div>
 
         </div>

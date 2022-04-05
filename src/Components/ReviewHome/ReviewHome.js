@@ -11,8 +11,8 @@ const ReviewHome = (props) => {
     return (
         <div>
 
-            <div className="ReviewHome reviewHome-card">
-                <div>
+            <div className="ReviewHome ">
+                <div className="reviewHome-card">
                     <h1>Name: {name}</h1>
                     <h4>ID: {id}</h4>
                     <h2>Comment: {comment}</h2>
