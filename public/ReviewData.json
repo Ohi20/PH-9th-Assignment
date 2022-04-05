@@ -1,42 +1,42 @@
 [
     {
-        "id": "1",
-        "img":"",
+        "id": 1,
+        "img": "",
         "name": "John",
         "comment": "Nice!",
         "ratings": "5"
     },
     {
-        "id": "2",
-        "img":"",
+        "id": 2,
+        "img": "",
         "name": "David",
         "comment": "Good read",
         "ratings": "4"
     },
     {
-        "id": "3",
-        "img":"",
+        "id": 3,
+        "img": "",
         "name": "Brad",
         "comment": "Love it!",
         "ratings": "5"
     },
     {
-        "id": "4",
-        "img":"",
+        "id": 4,
+        "img": "",
         "name": "Surgey",
         "comment": "Finishing is sad",
         "ratings": "4"
     },
     {
-        "id": "5",
-        "img":"",
+        "id": 5,
+        "img": "",
         "name": "Ronan",
         "comment": "Great book!",
         "ratings": "5"
     },
     {
-        "id": "6",
-        "img":"",
+        "id": 6,
+        "img": "",
         "name": "Simon",
         "comment": "Well written",
         "ratings": "4"

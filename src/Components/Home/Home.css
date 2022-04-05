@@ -12,13 +12,15 @@
 
 .welcome-text {
     font-size: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .paragraph-text {
     font-size: 30px;
     color: black;
-
+    padding-top: 30px;
+    padding: 0 40px;
     text-align: left;
 
 }
@@ -35,13 +37,28 @@
     height: 650px;
 }
 
+.review-header {
+    padding-top: 20px;
+}
+
 .home-btn {
     background-color: salmon;
-    padding: 15px 30px;
+    padding: 18px 50px;
     color: white;
     border-radius: 5px;
     border: none;
     font-size: 15px;
-    display: flex;
-    justify-content: left;
+    align-items: center;
+}
+
+.review-btn {
+    background-color: salmon;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 18px 50px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    align-items: center;
 }

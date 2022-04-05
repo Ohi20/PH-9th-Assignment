@@ -1,9 +1,7 @@
 .ReviewHome {
 
-    padding: 200px;
-}
+    padding: 20px;
+    margin: 40px;
+    border: 4px solid salmon;
 
-.ReviewHome-header {
-    padding-bottom: 70px;
-    margin-top: 20px;
 }

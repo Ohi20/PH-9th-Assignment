@@ -1,14 +1,22 @@
-.charts{
+.charts {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    margin: 20px;
 }
-.dash-header{
-    font-size: 40px; 
+
+.dash-header {
+    font-size: 40px;
 }
-.linechart{
+
+.linechart {
     border: 4px solid salmon;
+    padding: 20px;
+    padding-left: 100px;
 }
-.piechart{
+
+.piechart {
     border: 4px solid orange;
+    padding: 20px;
+    padding-left: 100px;
 }

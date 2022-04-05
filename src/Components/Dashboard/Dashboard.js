@@ -15,7 +15,7 @@ const Dashboard = () => {
             <h2 className='dash-header'>Dashboard</h2>
             <div className='charts'>
                 <div className='linechart'>
-                    <h2>lineChart</h2>
+                    <h2>LineChart</h2>
                     <LineChart width={600} height={350} data={info}
                     >
                         <CartesianGrid strokeDasharray="3 3" />
@@ -32,16 +32,16 @@ const Dashboard = () => {
                 <div className='piechart'>
                     <h2>Barchart</h2>
                     <BarChart width={600} height={350} data={info}>
-  <CartesianGrid strokeDasharray="3 3" />
-  <XAxis dataKey="month" />
-  <YAxis />
-  <Tooltip />
-  <Legend />
-  <Bar dataKey="month" fill="#5B9DA6" />
-  <Bar dataKey="sell" fill="#FFA987" />
-  <Bar dataKey="revenue" fill="#322F57" />
-  <Bar dataKey="investment" fill="#3DA6AD" />
-</BarChart>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="month" fill="#5B9DA6" />
+                        <Bar dataKey="sell" fill="#FFA987" />
+                        <Bar dataKey="revenue" fill="#322F57" />
+                        <Bar dataKey="investment" fill="#3DA6AD" />
+                    </BarChart>
                 </div>
             </div>
         </div>
