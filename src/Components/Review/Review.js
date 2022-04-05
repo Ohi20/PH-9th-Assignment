@@ -4,7 +4,6 @@ import ReviewCart from "../ReviewCart/ReviewCart";
 const Review = () => {
     const [reviews, setReviews] = useReview();
 
-
     return (
         <div>
             <h2>Reviews: {reviews.length}</h2>
@@ -13,13 +12,10 @@ const Review = () => {
                     {
                         reviews.map(review => <ReviewCart
                             key={review.id}
-                            review={review}></ReviewCart>
+                            review={review}
+                            reviews={reviews}></ReviewCart>
                         )
-
-
                     }
-
-
                 </div>
             </div>
         </div>

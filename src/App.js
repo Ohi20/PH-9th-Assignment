@@ -7,14 +7,12 @@ import Blogs from './Components/Blogs/Blogs';
 import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
 import Header from './Components/Header/Header';
-import ReviewHome from './Components/ReviewHome/ReviewHome';
 
 function App() {
   return (
     <div className='App'>
       <h1 className='header-title'>Bookagraphy</h1>
       <Header></Header>
-
 
       <Routes>
         <Route path="/" element={<Home></Home>} />
@@ -24,7 +22,6 @@ function App() {
         <Route path="/about" element={<About></About>} />
         <Route path="*" element={<NotFound></NotFound>} />
       </Routes>
-
 
     </div>
   );

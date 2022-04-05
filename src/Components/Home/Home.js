@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useReview from '../hook/customhook';
 import ReviewHome from '../ReviewHome/ReviewHome';
-
 import "./Home.css";
 
 const Home = () => {
@@ -13,6 +12,7 @@ const Home = () => {
         let path = `/review`;
         navigate(path);
     }
+
     return (
         <div >
 
