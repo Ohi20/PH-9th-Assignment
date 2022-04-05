@@ -13,7 +13,10 @@ const Review = () => {
                     {
                         reviews.map(review=> <ReviewCart
                         key={review.id}
-                        review={review}></ReviewCart>)
+                        review={review}></ReviewCart>
+                        )
+                        
+
                     }
                 </div>
                 <div>

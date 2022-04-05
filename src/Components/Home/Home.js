@@ -1,8 +1,11 @@
 import React from 'react';
+import useReview from '../hook/customhook';
+import ReviewHome from '../ReviewHome/ReviewHome';
 
 import "./Home.css";
 
 const Home = () => {
+    const [reviews, setReviews] = useReview();
     return (
         <div className='home'>
 
@@ -15,7 +18,14 @@ const Home = () => {
                 <img src='https://storage.googleapis.com/circlesoft/tiny_mce/0004/6085/original_favesnraves_2021_web_crop.jpg?8' alt=''></img>
             </div>
             <hr></hr>
-            
+            <div>
+                {
+                    reviews.map(review=> <ReviewHome
+                        key={review.id}
+                        review={review}></ReviewHome>
+                        )
+                }
+            </div>
         </div>
     );
 };
